@@ -9,7 +9,7 @@ solution <-- your solution goes here
 runSolution <-- runner for the solution
 testSolution <-- Optional testing with Google Test
 ```
-There are two files in the project root directory of some importance:
+There are two files in the project root directory of some importance (I always run nvim from the project root):
 
-* __.clang-format__ is my own formatting, mainly based on Stroustrup mixed with some oldschool K&R
+* __.clang-format__ mainly based on Stroustrup with some oldschool K&R formatting for good measure.
 * __compile_commands.json__ is created by init.bat (and is used by clangd/LSP in NeoVIM)
