@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.11-3.18)
+cmake_minimum_required(VERSION 3.28)
 project(solution)
 
 add_library(solution src/solution.cpp)
 
-# PUBLIC needed to make both hello.h and hello library available elsewhere in project
+# PUBLIC needed to make both hello.h and hello library available elsewhere in the project
 target_include_directories(${PROJECT_NAME}
     PUBLIC ${PROJECT_SOURCE_DIR}/include)
 

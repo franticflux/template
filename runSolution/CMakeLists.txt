@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.11-3.18)
+cmake_minimum_required(VERSION 3.28)
 
 project(runSolution)
 
 add_executable(main main.cpp)
-# We need hello.h and the hello library
+# We need solution.h and the solution library
 target_link_libraries(main
     PRIVATE solution)
 
