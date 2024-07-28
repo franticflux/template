@@ -56,7 +56,7 @@ IncludeBlocks: Merge
 IndentCaseLabels: false
 IndentExternBlock: Indent
 IndentRequires: false
-IndentWidth: 2
+IndentWidth: 4
 IndentWrappedFunctionNames: false
 KeepEmptyLinesAtTheStartOfBlocks: false
 NamespaceIndentation: All
